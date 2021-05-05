@@ -6,7 +6,7 @@ stages {
    
    stage ( 'checkout' )
    {
-   steps { 'checkout scm' } 
+   steps { checkout scm } 
    }
    } 
           } 
