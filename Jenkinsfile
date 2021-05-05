@@ -1,7 +1,8 @@
  pipeline { 
  agent { 
- label ' pipeline '
+ label 'pipeline'
  }
+  
  stages {
    
  stage ('checkout')
@@ -13,9 +14,10 @@
  }
    
          
-stage ('Example Build')
+stage ('Example')
    {
-  steps  { echo 'Hello, build example2'
+  steps  { 
+   echo "Hello, build example2" 
   }
    } 
  }
